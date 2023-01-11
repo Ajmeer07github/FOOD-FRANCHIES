@@ -1,0 +1,139 @@
+body{
+    background-color:#524e4e1e;
+}
+.nava img{
+    width: 280px;
+    height: 70px;
+    margin-right: 20px;
+    
+}
+.nava{
+  background-color: #524e4e1e;
+}
+
+
+
+.c1 img{
+  opacity: 1;
+  justify-content: center;
+  height: 200px;
+  border-radius: 10%;
+  width: 160px;
+  display: flex;
+  position:static;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  text-align: center;
+}
+
+.c1:hover img {
+  opacity: 0.2;
+}
+
+.c1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+ 
+}
+.c2{
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+    
+}
+.c3{
+    height: 300px;
+    width:150px;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+        
+}
+
+
+.card{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.footer-basic {
+    padding:40px 0;
+    background-color:#524e4e1e;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+  
